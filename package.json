@@ -1,0 +1,27 @@
+{
+  "name": "online-informatics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^3.2.13",
+    "vue-router": "^4.2.5",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.0",
+    "prettier": "^3.0.3",
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "_id": "online-informatics@0.1.0",
+  "readme": "ERROR: No README data found!"
+}
