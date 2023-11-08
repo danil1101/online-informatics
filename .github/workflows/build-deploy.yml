@@ -8,9 +8,6 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      packages: write
 
     steps:
       - name: Checkout repository
@@ -22,7 +19,7 @@ jobs:
           node-version: 18 # Измените версию Node.js, если необходимо
 
       - name: Install dependencies
-        run: npm cache clear --force && npm install
+        run: npm install
 
       - name: Build application
         run: npm run build # Измените на команду сборки вашего приложения
